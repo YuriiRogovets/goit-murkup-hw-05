@@ -416,6 +416,10 @@ padding: 32px 16px;
     align-items: baseline;
 }
 
+.footer-social {
+    margin-right: 80px;
+}
+
 .footer-slogan {
     margin-right: 120px;
 }
@@ -480,6 +484,62 @@ padding: 32px 16px;
 
 .footer-icon {
     fill: var(--c-light);
+}
+
+.footer-subscribe {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.footer-sing-label {
+    color: var(--c-bcg-wite);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+.footer-input {
+    display: block;
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--c-bcg-wite);
+    border-radius: 4px;    
+    background-color: var(--c-hero-bcg);
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+
+.footer-input::placeholder {
+    background-color: transparent;
+    color: var(--c-bcg-wite);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+
+}
+.footer-button {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    margin-left: 24px;
+    padding: 8px 24px;
+    text-align: center;
+    color: var(--c-bcg-wite);
+    background-color: var(--c-brand);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.footer-button-icon {
+    fill: var(--c-bcg-wite);
 }
 
 .backdrop {
