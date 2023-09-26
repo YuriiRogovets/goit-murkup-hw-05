@@ -745,7 +745,7 @@ padding: 32px 16px;
 .check-input:checked + .input-check-text > .check-empty {
     background-color: var(--c-pressed-state);
     border: none;
-    fill: var(--c-bcg-wite);
+    fill: var(--c-light);
 }
 
 
