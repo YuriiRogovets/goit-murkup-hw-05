@@ -742,8 +742,7 @@ padding: 32px 16px;
 
 }
 
-.check-input:checked + .check-empty {
-    
+.check-input:checked + .input-check-text > .check-empty {
     background-color: var(--c-pressed-state);
     border: none;
     fill: var(--c-bcg-wite);
@@ -757,4 +756,21 @@ padding: 32px 16px;
     letter-spacing: 0.04em;
     text-decoration-line: underline;
     color: var(--c-brand);
+}
+
+.modal-button-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: var(--c-brand);
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    color: var(--c-bcg-wite);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
